@@ -8,7 +8,7 @@ export default function About() {
 
       <div className="flex flex-col min-h-screen relative">
         {/* Top Text Section */}
-        <div className="w-full pt-32 px-6 md:px-12 mb-8">
+        <div className="w-full pt-32 px-6 md:px-12 mb-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="md:col-start-2">
               <div className="font-medium">
