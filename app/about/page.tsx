@@ -14,7 +14,7 @@ export default function About() {
               <p className="text-lg md:text-xl font-['Helvetica_Now',Helvetica,Arial,sans-serif] leading-none">
                 Artifice is the hybrid experience of <span className="text-white">physical and digital works</span>{" "}
                 presented in the same space (i.e, art and technology) - conceptually framed as White Box and Black Box.
-                Artifice presents 6 works on rotation for each box.
+                Artifice presents 12 works per chapter; 6 artists for White Box and 6 technologists for Black Box.
               </p>
             </div>
           </div>
