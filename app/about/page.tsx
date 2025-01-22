@@ -11,11 +11,13 @@ export default function About() {
         <div className="w-full pt-32 px-6 md:px-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="md:col-start-2">
-              <p className="text-lg md:text-xl font-['Helvetica_Now',Helvetica,Arial,sans-serif] leading-none">
-                Artifice is the hybrid experience of <span className="text-white">physical and digital works</span>{" "}
-                presented in the same space (i.e, art and technology) - conceptually framed as White Box and Black Box.
-                Artifice presents 12 works per chapter; 6 artists for White Box and 6 technologists for Black Box.
-              </p>
+              <div className="font-medium">
+                <p className="text-lg md:text-xl font-['Helvetica_Now',Helvetica,Arial,sans-serif] leading-none">
+                  Artifice is the hybrid experience of <span className="text-white">physical and digital works</span>{" "}
+                  presented in the same space (i.e, art and technology) - conceptually framed as White Box and Black Box.
+                  Artifice presents 12 works per chapter; 6 artists for White Box and 6 technologists for Black Box.
+                </p>
+              </div>
             </div>
           </div>
         </div>
