@@ -12,7 +12,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="md:col-start-2">
               <div className="font-medium">
-                <p className="text-sm md:text-sm font-['Helvetica_Now',Helvetica,Arial,sans-serif] leading-[90%]">
+                <p className="text-sm md:text-sm font-['Helvetica_Now',Helvetica,Arial,sans-serif] leading-[80%] mb-24">
                   Artifice is the hybrid experience of <span className="text-white">physical and digital works</span>{" "}
                   presented in the same space (i.e, art and technology) - conceptually framed as White Box and Black Box.
                   Artifice presents 12 works per chapter; 6 artists for White Box and 6 technologists for Black Box.
