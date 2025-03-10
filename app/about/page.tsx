@@ -1,50 +1,11 @@
-import { Navigation } from "@/components/navigation"
-import Image from "next/image"
-
-export default function About() {
-  return (
-    <main className="min-h-screen bg-black text-white uppercase">
-      <Navigation />
-
-      <div className="flex flex-col min-h-screen">
-        {/* Top Text Section */}
-        <div className="w-full pt-32 px-6 md:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="md:col-start-2">
-              <div className="font-medium">
-                <p className="text-sm md:text-sm font-['Helvetica_Now',Helvetica,Arial,sans-serif] leading-[60%] tracking-[-1px] mb-6">
-                  Artifice is the hybrid experience of <span className="text-white">physical and digital works</span>{" "}
-                  presented in the same space (i.e, art and technology) - conceptually framed as White Box and Black Box.
-                  Artifice presents 12 works per chapter; 6 artists for White Box and 6 technologists for Black Box.
-                </p>
+              <div className="md:col-start-2">
+                <div className="font-medium">
+                  <p className="text-sm md:text-sm font-['Helvetica_Now',Helvetica,Arial,sans-serif] leading-[60%] tracking-[-1px] mb-6">
+                    <span className="text-white">ARTIFICE</span> is a production studio and platform showcasing <span className="text-white">art, technology, sound, and design</span>. 
+                    We foster a cross-disciplinary exchange where material and immaterial (digital) artifacts co-exist, encouraging new ways of engaging with creative work. 
+                    Our <span className="text-white">WHITE BOX</span> (gallery) and <span className="text-white">BLACK BOX</span> (media space) is intended to cultivate collective engagement and community-driven artistic exploration.
+                    
+                    By showcasing emerging talent and embracing an open-ended approach, <span className="text-white">ARTIFICE</span> offers an ever-expanding platform for experimentation, exploration, and cultural critique through <span className="text-white">ARTIFACTS</span> - which encompasses both material and immaterial media.
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom Images Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-auto">
-          <div className="relative aspect-square w-full">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cover%20white%20box%2001-62JxVCPd2vsgMemKFgTImNDTfPIMs4.png"
-              alt="White Box"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-          <div className="relative aspect-square w-full">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cover%20black%20box%2001-kz8la0qvzux6vl5YcQnI4sWLb1iCnD.png"
-              alt="Black Box"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        </div>
-      </div>
-    </main>
-  )
-}
-
